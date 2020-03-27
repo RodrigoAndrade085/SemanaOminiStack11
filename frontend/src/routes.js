@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Logon from './pages/logon';
-import Register from './pages/register';
-import Profile from './pages/profile';
-import NewIncident from './pages/newIncident';
+import Logon from './Pages/Logon';
+import Register from './Pages/Register';
+import Profile from './Pages/Profile';
+import NewIncident from './Pages/NewIncident';
 
 export default function Routes() {
     return (
